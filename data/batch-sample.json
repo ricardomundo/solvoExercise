@@ -1,0 +1,192 @@
+{
+  "batchId": "batch-sample",
+  "documents": [
+    {
+      "docId": "DOC-000001",
+      "custodian": "jsmith",
+      "docType": "email",
+      "parentId": null,
+      "fileName": "Q3 budget review.eml",
+      "sha256": "f01c985325582f4e8eaa526b7e31bbc433628dcfe58e7d67044709953c1ca527",
+      "sizeBytes": 18234,
+      "sentDate": "2024-03-05T14:22:00-05:00",
+      "from": "john.smith@example.com",
+      "to": [
+        "maria.lee@example.com"
+      ],
+      "subject": "Q3 budget review",
+      "body": "Hi Maria,\n\nAttached is the Q3 budget and the vendor report we discussed.\nLet me know if the travel line looks right to you.\n\nThanks,\nJohn"
+    },
+    {
+      "docId": "DOC-000002",
+      "custodian": "jsmith",
+      "docType": "attachment",
+      "parentId": "DOC-000001",
+      "fileName": "Q3-budget.xlsx",
+      "sha256": "d0687f0fe9d3b02f06db97d7dc8ae8a3994fc27b44fdfaf7bf5997214c444f93",
+      "sizeBytes": 44120
+    },
+    {
+      "docId": "DOC-000003",
+      "custodian": "jsmith",
+      "docType": "attachment",
+      "parentId": "DOC-000001",
+      "fileName": "vendor-report.pdf",
+      "sha256": "812ffd6153e7cc868416c5311a64daad44ef784610adf830f27a080f89af757c",
+      "sizeBytes": 210455
+    },
+    {
+      "docId": "DOC-000004",
+      "custodian": "jsmith",
+      "docType": "email",
+      "parentId": null,
+      "fileName": "FW vendor report.eml",
+      "sha256": "3874c04f52d2eeca77202fb0f71a2f66b91408f44ca2d530fcd4d02bd2030bde",
+      "sizeBytes": 19877,
+      "sentDate": "2024-03-06T09:10:00-05:00",
+      "from": "john.smith@example.com",
+      "to": [
+        "ray.kim@example.com"
+      ],
+      "subject": "FW: vendor report",
+      "body": "Ray - see the vendor report below. Numbers look off in section 3.\n\n---------- Forwarded message ----------\nFrom: John Smith\nAttached is the Q3 budget and the vendor report we discussed."
+    },
+    {
+      "docId": "DOC-000005",
+      "custodian": "jsmith",
+      "docType": "attachment",
+      "parentId": "DOC-000004",
+      "fileName": "vendor-report.pdf",
+      "sha256": "812ffd6153e7cc868416c5311a64daad44ef784610adf830f27a080f89af757c",
+      "sizeBytes": 210455
+    },
+    {
+      "docId": "DOC-000006",
+      "custodian": "jsmith",
+      "docType": "email",
+      "parentId": null,
+      "fileName": "Lunch.eml",
+      "sha256": "7a5c40b9ebe1494f39ef594540d293b80001796da90992837b222387fa958ad9",
+      "sizeBytes": 4021,
+      "sentDate": "2024-03-06T11:45:00-05:00",
+      "from": "john.smith@example.com",
+      "to": [
+        "maria.lee@example.com"
+      ],
+      "subject": "Lunch?",
+      "body": "Lunch at noon?"
+    },
+    {
+      "docId": "DOC-000007",
+      "custodian": "jsmith",
+      "docType": "loose",
+      "parentId": null,
+      "fileName": "notes.txt",
+      "sha256": "6266648e5c67fdb71e687d3ba9b5a0b92804937ac2fae8bf8cc6cc430d5de8bc",
+      "sizeBytes": 1288
+    },
+    {
+      "docId": "DOC-000008",
+      "custodian": "jsmith",
+      "docType": "loose",
+      "parentId": null,
+      "fileName": "policy.docx",
+      "sha256": "5395fc0e907dd29f22317a7ecde0e385021fc95902e28eb22149ce99f88b69ab",
+      "sizeBytes": 88210
+    },
+    {
+      "docId": "DOC-000009",
+      "custodian": "mlee",
+      "docType": "email",
+      "parentId": null,
+      "fileName": "Q3 budget review.eml",
+      "sha256": "5fac3b2c2bcf09233ec84c23c3b205560df1d24de458857a32728d5d17b65dcf",
+      "sizeBytes": 18310,
+      "sentDate": "2024-03-05T19:22:00Z",
+      "from": "John.Smith@example.com",
+      "to": [
+        "maria.lee@example.com"
+      ],
+      "subject": "Q3 budget review",
+      "body": "Hi Maria,\r\n\r\nAttached is the Q3 budget and the vendor report we discussed.\r\nLet me know if the travel line looks right to you.\r\n\r\nThanks,\r\nJohn"
+    },
+    {
+      "docId": "DOC-000010",
+      "custodian": "mlee",
+      "docType": "attachment",
+      "parentId": "DOC-000009",
+      "fileName": "Q3-budget.xlsx",
+      "sha256": "d0687f0fe9d3b02f06db97d7dc8ae8a3994fc27b44fdfaf7bf5997214c444f93",
+      "sizeBytes": 44120
+    },
+    {
+      "docId": "DOC-000011",
+      "custodian": "mlee",
+      "docType": "attachment",
+      "parentId": "DOC-000009",
+      "fileName": "vendor-report.pdf",
+      "sha256": "812ffd6153e7cc868416c5311a64daad44ef784610adf830f27a080f89af757c",
+      "sizeBytes": 210455
+    },
+    {
+      "docId": "DOC-000012",
+      "custodian": "mlee",
+      "docType": "email",
+      "parentId": null,
+      "fileName": "Re Q3 budget review.eml",
+      "sha256": "e6bcef092770c7ec269f6f0669fba80714b0989553057fe674982baf681cdf5b",
+      "sizeBytes": 5120,
+      "sentDate": "2024-03-05T20:05:00Z",
+      "from": "maria.lee@example.com",
+      "to": [
+        "john.smith@example.com"
+      ],
+      "subject": "Re: Q3 budget review",
+      "body": "Travel line looks fine. Approving."
+    },
+    {
+      "docId": "DOC-000013",
+      "custodian": "mlee",
+      "docType": "loose",
+      "parentId": null,
+      "fileName": "policy.docx",
+      "sha256": "5395fc0e907dd29f22317a7ecde0e385021fc95902e28eb22149ce99f88b69ab",
+      "sizeBytes": 88210
+    },
+    {
+      "docId": "DOC-000014",
+      "custodian": "mlee",
+      "docType": "loose",
+      "parentId": null,
+      "fileName": "mlee-notes.txt",
+      "sha256": "cc26e098ae131c88d1559d82a2071e7b746b7411dd5c5c0b506e40ce532b43ad",
+      "sizeBytes": 902
+    },
+    {
+      "docId": "DOC-000015",
+      "custodian": "mlee",
+      "docType": "email",
+      "parentId": null,
+      "fileName": "Team offsite.eml",
+      "sha256": "8f21091f355773850f73331c36f8c2d8b9b3d366355b806b1329f6582f585400",
+      "sizeBytes": 7710,
+      "sentDate": "2024-03-07T16:00:00Z",
+      "from": "maria.lee@example.com",
+      "to": [
+        "john.smith@example.com",
+        "ray.kim@example.com"
+      ],
+      "subject": "Team offsite",
+      "body": "Agenda attached. Please add topics."
+    },
+    {
+      "docId": "DOC-000016",
+      "custodian": "mlee",
+      "docType": "attachment",
+      "parentId": "DOC-000015",
+      "fileName": "agenda.docx",
+      "sha256": "f174b50144f6ca573f4f952b54b03ebc5eb56d3b05ad1c9b3f15d15015265042",
+      "sizeBytes": 30122
+    }
+  ]
+}
